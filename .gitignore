@@ -21,25 +21,30 @@ cgi-bin
 
 *.DS_Store
 
-enjoy-lesbian-es.net/*.log
-enjoy-lesbian-es.net/wp-config.php
-enjoy-lesbian-es.net/wp-content/advanced-cache.php
-enjoy-lesbian-es.net/wp-content/backup-db/
-enjoy-lesbian-es.net/wp-content/backups/
-enjoy-lesbian-es.net/wp-content/blogs.dir/
-enjoy-lesbian-es.net/wp-content/cache/
-enjoy-lesbian-es.net/wp-content/upgrade/
-enjoy-lesbian-es.net/wp-content/uploads/
-enjoy-lesbian-es.net/wp-content/wp-cache-config.php
-enjoy-lesbian-es.net/wp-content/plugins/hello.php
+data/www/enjoy-lesbian-es.net/*.log
+data/www/enjoy-lesbian-es.net/wp-config.php
+data/www/enjoy-lesbian-es.net/wp-content/advanced-cache.php
+data/www/enjoy-lesbian-es.net/wp-content/backup-db/
+data/www/enjoy-lesbian-es.net/wp-content/backups/
+data/www/enjoy-lesbian-es.net/wp-content/blogs.dir/
+data/www/enjoy-lesbian-es.net/wp-content/cache/
+data/www/enjoy-lesbian-es.net/wp-content/upgrade/
+data/www/enjoy-lesbian-es.net/wp-content/uploads/
+data/www/enjoy-lesbian-es.net/wp-content/wp-cache-config.php
+data/www/enjoy-lesbian-es.net/wp-content/plugins/hello.php
 
-/enjoy-lesbian-es.net/.htaccess
-/enjoy-lesbian-es.net/license.txt
-/enjoy-lesbian-es.net/readme.html
-/enjoy-lesbian-es.net/sitemap.xml
-/enjoy-lesbian-es.net/sitemap.xml.gz
+/data/www/enjoy-lesbian-es.net/.htaccess
+/data/www/enjoy-lesbian-es.net/license.txt
+/data/www/enjoy-lesbian-es.net/readme.html
+/data/www/enjoy-lesbian-es.net/sitemap.xml
+/data/www/enjoy-lesbian-es.net/sitemap.xml.gz
 
-enjoy-lesbian-es.net/webstat
-enjoy-lesbian-es.net/cgi-bin
+data/www/enjoy-lesbian-es.net/webstat
+data/www/enjoy-lesbian-es.net/cgi-bin
 
-enjoy-lesbian-es.net/*.DS_Store
+data/www/enjoy-lesbian-es.net/*.DS_Store
+
+data/email
+data/etc
+data/logs
+data/mod-tmp
