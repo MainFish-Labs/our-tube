@@ -175,10 +175,17 @@ body {
 
 /* END HEADER*/
 
-h1 {
+h1,
+.title-header  {
 	font-size: @font-size-h1;
 	color: @brand-color;
 	font-family: @brand-font;
+}
+
+.title-header {
+	small {
+		color: #777;
+	}
 }
 
 h2 {
@@ -236,7 +243,7 @@ ul li, ol li {
 	position: relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .title-header {
 	small.hidden-xs,
 	small.hidden-xxs {
 		display: inline !important;
