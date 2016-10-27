@@ -18,12 +18,25 @@
 	position: fixed;
 	z-index: 1;
 	opacity: .3;
-	width: 200px;
-	height: 200px;
+	z-index: 1000;
 }
 
 .output-overlay:hover {
 	opacity: 1;
+}
+
+.size-check {
+	position: fixed;
+	z-index: 10;
+	opacity: .75;
+	top: 60px;
+
+	div {
+		color: @purple !important;
+		font-size: 48px;
+		font-weight: 900;
+		background: rgba(60, 230, 102, 0.54)
+	}
 }
 
 // END FOR DEBUG
@@ -123,8 +136,9 @@ body {
 		.sticky-title {
 			display: block;
 
-			h1 {
-				font-size: @font-size-h3;
+			h2 {
+				margin-top: 10px;
+				margin-bottom: 10px;
 			}
 		}
 	}
@@ -163,6 +177,12 @@ body {
 
 h1 {
 	font-size: @font-size-h1;
+	color: @brand-color;
+	font-family: @brand-font;
+}
+
+h2 {
+	font-size: @font-size-h2;
 	color: @brand-color;
 	font-family: @brand-font;
 }
@@ -207,17 +227,10 @@ ul li, ol li {
 	position: relative;
 }
 
-.size-check {
-	position: fixed;
-	z-index: 10;
-	opacity: .75;
-	top: 50px;
-
-	h1 {
-		color: @purple;
-		font-size: 48px;
-		font-weight: 900;
-		background: rgba(60, 230, 102, 0.54)
+h1, h2, h3, h4, h5, h6 {
+	small.hidden-xs,
+	small.hidden-xxs {
+		display: inline !important;
 	}
 }
 
@@ -404,6 +417,10 @@ ul li, ol li {
 
 		.btn-group {
 			margin-left: 5px;
+
+			.btn-xs {
+				padding: 1px 8px;
+			}
 		}
 	}
 }
