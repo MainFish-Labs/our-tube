@@ -656,16 +656,13 @@ video {
 	border-color: @gray-dark;
 }
 
-.pagination>li>a:hover {
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
 	background-color: @link-hover-color;
 	border-color: @gray-dark;
 	color: @gray-darker;
-}
-
-.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-	color: #85d0e7;
-	background-color: #eee;
-	border-color: #ddd;
 }
 
 .pagination>.active>a,
