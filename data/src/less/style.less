@@ -598,6 +598,40 @@ h1, h2, h3, h4, h5, h6, .title-header {
 	width: 100%;
 }
 
+.pagination>li>a,
+.pagination>li>span {
+	background-color: @gray-dark;
+	border-color: @gray-dark;
+}
+
+.pagination>li>a:hover {
+	background-color: @link-hover-color;
+	border-color: @gray-dark;
+	color: @gray-darker;
+}
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+	color: @gray-darker;
+	background-color: @brand-color;
+	border-color: @brand-color;
+}
+
+.pagination>.disabled>span,
+.pagination>.disabled>span:hover,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>a,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>a:focus {
+	color: @gray-darker;
+	background-color: @gray-dark;
+	border-color: @gray-dark;
+}
+
 /* END PAGINATION */
 
 /* FOOTER */
