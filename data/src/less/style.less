@@ -265,6 +265,9 @@ body {
 // Search
 
 .page-header {
+	padding-bottom: 5px;
+	margin: 20px 0 20px;
+	border-bottom: 1px solid @brand-color-dark;
 	@media (max-width: @screen-xs-max) {
 		margin: 60px 0 0px;
 	}
@@ -297,7 +300,7 @@ h1,
 
 .title-header {
 	small {
-		color: #777;
+		color: @gray-light;
 	}
 }
 
@@ -554,11 +557,12 @@ video {
 
 .btn.btn-primary {
 	background: @brand-primary;
-	box-shadow: 0 2px @dark-brand-color;
+	box-shadow: 0 2px @brand-color-dark;
 }
 
 .btn.btn-primary:hover {
 	background: @link-hover-color;
+	border-color: @link-hover-color;
 }
 
 .btn-primary:active:focus,
@@ -588,7 +592,7 @@ video {
 
 .btn-sort.active {
 	background: @brand-primary !important;
-	border-color: @dark-brand-color !important;
+	border-color: @brand-color-dark !important;
 }
 
 .btn-sort {
@@ -597,7 +601,7 @@ video {
 }
 .btn-sort.active:hover {
 	background: @link-hover-color !important;
-	border-color: @dark-brand-color !important;
+	border-color: @brand-color-dark !important;
 }
 
 .btn-sort:hover {
@@ -816,7 +820,7 @@ footer {
 	min-height: 240px;
 
 	.footer {
-		background-color: @dark-brand-color;
+		background-color: @brand-color-dark;
 	}
 }
 
