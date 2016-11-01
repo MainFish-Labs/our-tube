@@ -543,32 +543,46 @@ th.visible-xxs {
 
 /* VISIBLE XS */
 
-@media (max-width: @screen-xxs-max) {
-	.visible-xs-block {
-		display: none !important;
-	}
-
-	tr.visible-xs-block {
-		display: none !important;
-	}
-
-	td.visible-xs-block,
-	th.visible-xs-block {
-		display: none !important;
-	}
-}
-
 @media (min-width: @screen-xs-min) and (max-width: @screen-xs-max) {
-	.visible-xs-block {
+	.visible-xs-block,
+	.visible-xs {
 		display: block !important;
 	}
 
-	tr.visible-xs-block {
+	tr.visible-xs-block,
+	tr.visible-xs {
 		display: table-row !important;
 	}
 
 	td.visible-xs-block,
-	th.visible-xs-block {
+	th.visible-xs-block,
+	td.visible-xs,
+	th.visible-xs {
+		display: table-cell !important;
+	}
+}
+
+@media (max-width: @screen-xxs-max) {
+	.visible-xs-block.visible-xxs,
+	.visible-xs.visible-xxs,
+	.visible-xxs.visible-xs-block,
+	.visible-xxs.visible-xs {
+		display: block !important;
+	}
+	tr.visible-xs-block.visible-xxs,
+	tr.visible-xs.visible-xxs,
+	tr.visible-xxs.visible-xs-block,
+	tr.visible-xxs.visible-xs  {
+		display: table-row !important;
+	}
+	td.visible-xs-block.visible-xxs,
+	th.visible-xs-block.visible-xxs,
+	td.visible-xs.visible-xxs,
+	th.visible-xs.visible-xxs,
+	td.visible-xxs.visible-xs-block,
+	th.visible-xxs.visible-xs-block,
+	td.visible-xxs.visible-xs,
+	th.visible-xxs.visible-xs {
 		display: table-cell !important;
 	}
 }
