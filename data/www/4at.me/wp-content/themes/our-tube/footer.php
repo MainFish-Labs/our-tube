@@ -1,3 +1,6 @@
+
+</div> <!-- .container .main -->
+
 <div class="container">
 	<div class="row unit-block unit-block-bottom">
 		<div class="col-xs-24 col-sm-24 col-md-20 col-md-offset-2 col-lg-20 col-lg-offset-2 unit">
@@ -64,7 +67,8 @@
 		</div>
 	</div>
 </footer>
-</div>
+</div> <!-- .wrapper -->
+
 <!-- HEADER AREA END -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

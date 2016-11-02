@@ -583,6 +583,9 @@ video {
 }
 
 .headings {
+	h3 {
+		margin-top: 28px;
+	}
 	.btn-sort-group {
 		margin: 15px 0;
 
@@ -628,6 +631,10 @@ video {
 
 	img {
 		max-width: 100%;
+	}
+
+	a.thumb-link {
+		color: #fff;
 	}
 }
 
@@ -682,6 +689,20 @@ video {
 	}
 }
 
+.thumb-col {
+
+	.thumb-name {
+		@media (max-width: @screen-xs-max) {
+			font-size: @font-size-h4;
+		}
+	}
+	.thumb-views,
+	.thumb-dur {
+		@media (max-width: @screen-xs-max) {
+			font-size: @font-size-h5;
+		}
+	}
+}
 
 .thumb-col:hover{
 	@media (min-width: @screen-sm-min) {
@@ -721,7 +742,7 @@ video {
 
 .thumb-col:hover,
 .unit:hover {
-	cursor: pointer;
+	// cursor: pointer;
 	z-index: 10;
 }
 
