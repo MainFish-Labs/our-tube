@@ -46,6 +46,12 @@ body {
 	font-family: @font-family-sans-serif;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	background: @body-bg;
+}
+
+header,
+.wrapper {
+	background: @body-bg;
 }
 
 // Выравнивание по высоте
@@ -799,6 +805,7 @@ video {
 
 .pag-box {
 	width: 100%;
+	padding-top: 20px;
 }
 
 .pagination>li>a,
@@ -848,6 +855,13 @@ footer {
 
 	.footer {
 		background-color: @brand-color-dark;
+		margin-bottom: 152px;
+	}
+
+	.footer-drawer {
+		position: fixed;
+		bottom: 0;
+		z-index: -1;
 	}
 }
 

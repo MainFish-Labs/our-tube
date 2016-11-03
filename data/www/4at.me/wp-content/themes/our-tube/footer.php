@@ -28,41 +28,43 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid footer-menu">
-		<div class="row">
-			<div class="footer-bar">
-				<nav class="navbar navbar-inverse">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="single.html">Post</a>
-						</li>
-						<li>
-							<a href="#">Menu2</a>
-						</li>
-						<li>
-							<a href="#">Menu3</a>
-						</li>
-						<li>
-							<a href="#">Menu4</a>
-						</li>
+	<div class="footer-drawer">
+		<div class="container-fluid footer-menu">
+			<div class="row">
+				<div class="footer-bar">
+					<nav class="navbar navbar-inverse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="single.html">Post</a>
+							</li>
+							<li>
+								<a href="#">Menu2</a>
+							</li>
+							<li>
+								<a href="#">Menu3</a>
+							</li>
+							<li>
+								<a href="#">Menu4</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer-links">
+					<ul class="nav nav-pills nav-justified">
+						<li class="active"><a href="#">Terms of Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">DMCA</a></li>
+						<li><a href="#">2257</a></li>
 					</ul>
-				</nav>
-			</div>
-			<div class="footer-links">
-				<ul class="nav nav-pills nav-justified">
-					<li class="active"><a href="#">Terms of Service</a></li>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">DMCA</a></li>
-					<li><a href="#">2257</a></li>
-				</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div id="last" class="copyright text-center">
-				Our Tube - Our Theme<br>
-				© 2016 All Rights Reserved.
+		<div class="container-fluid">
+			<div class="row">
+				<div id="last" class="copyright text-center">
+					Our Tube - Our Theme<br>
+					© 2016 All Rights Reserved.
+				</div>
 			</div>
 		</div>
 	</div>
