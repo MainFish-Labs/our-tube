@@ -4,7 +4,7 @@ $postslist = get_posts( array( 'posts_per_page' => 100, 'order'=> 'ASC', 'orderb
 foreach ( $postslist as $post ){
 	setup_postdata($post);
 	?>
-	<div class="col-xxs-24 col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xlg-3 thumb-col">
+	<div class="col-xxs-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xlg-8 thumb-col">
 			<div class="thumb-group">
 				<a class="thumb-link" href="<?php echo get_permalink(); ?>">
 					<img
