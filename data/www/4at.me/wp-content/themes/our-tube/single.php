@@ -23,6 +23,7 @@
 		        <source src="<?php echo $video_link; ?>" type="video/mp4">
 		    </video>
 		</div>
+		<input type="text" class="donor_link" value="<?php echo get_post_meta($post->ID, 'link', true) ?>" disabled>
   </div>
 	<div class="col-xxs-24 col-xs-24 col-sm-6 col-md-8 col-lg-8 col-xlg-9 visible-xs visible-xxs">
 		<h3>Related Videos</h3>

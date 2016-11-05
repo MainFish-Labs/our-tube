@@ -83,12 +83,16 @@
 								</div>
 								<div class="col-xxs-12 col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xlg-8 sticky-title">
 									<div class="sticky text-center">
-										<h2 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h2>
-										<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+										<a href="<?php echo home_url(); ?>" class="title">
+											<h2 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h2>
+											<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+										</a>
 									</div>
 									<div class="top text-center">
-										<h3 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h3>
-										<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+										<a href="<?php echo home_url(); ?>" class="title">
+											<h3 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h3>
+											<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+										</a>
 									</div>
 								</div>
 								<div class="col-xxs-12 col-xs-12 col-sm-10 col-md-8 col-lg-8 col-xlg-8 hidden-xs hidden-xxs">
@@ -117,7 +121,10 @@
 				<div class="container header-main hidden-xs hidden-xxs">
 						<div class="row page-header">
 								<div class="col-xxs-24 col-xs-24 col-sm-12 col-md-12 col-lg-12 col-xlg-12">
-										<div class="title-header">OUR Tube <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small>
+										<div class="title-header">
+											<a href="<?php echo home_url(); ?>" class="title">
+												OUR Tube <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small>
+											</a>
 										</div>
 										<!-- <ol class="breadcrumb">
 											<li><a href="#">Home</a></li>
@@ -148,6 +155,6 @@
 				</div>
 			</div> -->
 			<!-- <div class="container-fluid"> -->
-			
+
 		<div class="wrapper">
 			<div class="container main">
