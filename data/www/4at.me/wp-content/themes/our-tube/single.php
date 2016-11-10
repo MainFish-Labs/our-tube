@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 
 <div class="row single">
-  <div class="col-xxs-24 col-xs-24 col-sm-18 col-md-16 col-lg-16 col-xlg-15">
-		<h1>Post Name</h1>
-	</div>
-	<div class="col-xxs-24 col-xs-24 col-sm-6 col-md-8 col-lg-8 col-xlg-9 hidden-xs hidden-xxs text-right h3-rel">
-		<h3>Related Videos</h3>
+  <div class="headings">
+			<?php get_template_part('parts/headings'); ?>
 	</div>
   <div class="col-xxs-24 col-xs-24 col-sm-18 col-md-16 col-lg-16 col-xlg-15">
 		<div align="center" class="embed-responsive">
@@ -43,7 +40,6 @@
 		</div>
 		<div class="row rel-thumbs">
 			<?php get_template_part('parts/latest','sidebar'); ?>
-
 		</div>
 	</div>
 </div> <!-- .single -->

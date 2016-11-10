@@ -1,41 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row headings">
-	<div class="col-md-6 col-lg-4 col-xlg-3 hidden-sm hidden-xs hidden-xxs">
-		<h3>Categories</h3>
-	</div>
-	<div class="col-xxs-24 col-xs-14 col-sm-16 col-md-12 col-lg-10 col-xlg-12">
-		<h1 class="title">Lastet Videos <small class="hidden-xs hidden-xxs">New uploads</small></h1>
-	</div>
-	<div class="col-xxs-24 col-xs-10 visible-xs visble-xxs">
-		<div class="input-group has-primary">
-				<input type="text" class="form-control" placeholder="What are you looking for?">
-				<span class="input-group-btn">
-					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					<button class="btn btn-primary" type="button">Search</button>
-				</span>
-		</div>
-	</div>
-	<div class="col-xxs-24 col-xs-24 col-sm-8 col-md-6 col-lg-10 col-xlg-9">
-		<div class="btn-sort-group text-right">
-			<div class="btn-group" data-toggle="buttons">
-			  <label class="btn btn-primary btn-sort active btn-xs">
-			    <input type="radio" name="options" id="latest" autocomplete="off" checked>Latest
-			  </label>
-			  <label class="btn btn-primary btn-sort btn-xs">
-			    <input type="radio" name="options" id="longest" autocomplete="off">Longest
-			  </label>
-			</div>
-			<div class="btn-group" data-toggle="buttons">
-			  <label class="btn btn-primary btn-sort active btn-xs">
-			    <input type="radio" name="options" id="latest" autocomplete="off" checked>All
-			  </label>
-			  <label class="btn btn-primary btn-sort btn-xs">
-			    <input type="radio" name="options" id="longest" autocomplete="off">HD
-			  </label>
-			</div>
-		</div>
-	</div>
+	<?php get_template_part('parts/headings'); ?>
 </div>
 
 <div class="row last-posts home-thumbs is-flex-narrow">

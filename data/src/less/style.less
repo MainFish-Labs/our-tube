@@ -282,15 +282,15 @@ header,
 	@media (min-width: @screen-sm-min) {
 		margin: 10px 0 0px;
 	}
+}
 
-	.form-control::-webkit-input-placeholder {
-		color: @gray;
-		text-transform: uppercase;
-	}
+.form-control::-webkit-input-placeholder {
+	color: @gray;
+	text-transform: uppercase;
+}
 
-	input.form-control {
-		background: @body-bg;
-	}
+input.form-control {
+	background: @body-bg;
 }
 
 .navbar {
@@ -562,8 +562,12 @@ video {
 /* BUTTONS */
 
 .input-group {
-	margin: @header-margin;
-	margin: 10px 0 10px;
+	@media (max-width: @screen-xs-max) {
+		margin: 20px 0;
+	}
+	@media (min-width: @screen-sm-min) {
+		margin: 10px 0;
+	}
 }
 
 .input-group .input-group-btn .btn {
@@ -866,10 +870,16 @@ footer {
 
 	.footer {
 		background-color: @brand-color-dark;
-		margin-bottom: 152px;
+		@media (max-width: @screen-xs-max) {
+			margin-bottom: 417px;
+		}
+		@media (min-width: @screen-sm-min) {
+			margin-bottom: 152px;
+		}
 	}
 
 	.footer-drawer {
+		width: 100%;
 		position: fixed;
 		bottom: 0;
 		z-index: -1;

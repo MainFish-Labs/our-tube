@@ -543,6 +543,25 @@ th.visible-xxs {
 
 /* VISIBLE XS */
 
+@media (max-width: @screen-xxs-max) {
+	.visible-xs-block,
+	.visible-xs {
+		display: none !important;
+	}
+
+	tr.visible-xs-block,
+	tr.visible-xs {
+		display: none!important;
+	}
+
+	td.visible-xs-block,
+	th.visible-xs-block,
+	td.visible-xs,
+	th.visible-xs {
+		display: none !important;
+	}
+}
+
 @media (min-width: @screen-xs-min) and (max-width: @screen-xs-max) {
 	.visible-xs-block,
 	.visible-xs {

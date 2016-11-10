@@ -1,5 +1,4 @@
 /etc/bash.bashrc
-source /etc/bash.bashrc ~/bashrc
 
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
@@ -58,3 +57,32 @@ fi
 
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs
+
+
+----------------
+
+
+
+/etc/default/locale
+
+LANGUAGE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+LC_TYPE=en_US.UTF-8
+
+
+-----------------
+
+
+/etc/ssh/ssh_config
+
+ServerAliveInterval 60
+
+/etc/ssh/sshd_config
+
+ClientAliveInterval 60
+
+
+-------------------
+
+source /etc/bash.bashrc ~/bashrc && locale-gen en_US.UTF-8 && dpkg-reconfigure locales && reboot

@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home - OUR Theme</title>
+		<title>Home - <?php bloginfo('name'); ?>&nbsp;-&nbsp;<?php bloginfo('description'); ?></title>
 		<meta name="description" content="meta-description here">
 
 		<!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
@@ -84,14 +84,14 @@
 								<div class="col-xxs-12 col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xlg-8 sticky-title">
 									<div class="sticky text-center">
 										<a href="<?php echo home_url(); ?>" class="title">
-											<h2 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h2>
-											<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+											<h3 class="bloginfo"><?php bloginfo('name'); ?><small class="hidden-sm hidden-xs hidden-xxs">&nbsp;<?php bloginfo('description'); ?></h3>
+											<!-- <h2 class="visible-xs visible-xxs">OUR Tube</h2> -->
 										</a>
 									</div>
 									<div class="top text-center">
 										<a href="<?php echo home_url(); ?>" class="title">
-											<h3 class="hidden-xs hidden-xxs">OUR Tube  <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small></h3>
-											<h2 class="visible-xs visible-xxs">OUR Tube</h2>
+											<h2 class="bloginfo"><?php bloginfo('name'); ?><small class="hidden-sm hidden-xs hidden-xxs">&nbsp;<?php bloginfo('description'); ?></small></h2>
+											<!-- <h2 class="visible-xs visible-xxs">OUR Tube</h2> -->
 										</a>
 									</div>
 								</div>
@@ -123,7 +123,7 @@
 								<div class="col-xxs-24 col-xs-24 col-sm-12 col-md-12 col-lg-12 col-xlg-12">
 										<div class="title-header">
 											<a href="<?php echo home_url(); ?>" class="title">
-												OUR Tube <small class="hidden-sm hidden-xs hidden-xxs">OUR theme</small>
+												<?php bloginfo('name'); ?><small class="hidden-sm hidden-xs hidden-xxs">&nbsp;<?php bloginfo('description'); ?></small>
 											</a>
 										</div>
 										<!-- <ol class="breadcrumb">

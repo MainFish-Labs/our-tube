@@ -62,8 +62,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div id="last" class="copyright text-center">
-					Our Tube - Our Theme<br>
-					© 2016 All Rights Reserved.
+					<?php bloginfo('name'); ?>&nbsp;-&nbsp;<?php bloginfo('description'); ?><br>
+					© <?php the_date('Y'); ?> All Rights Reserved.
 				</div>
 			</div>
 		</div>
