@@ -4,8 +4,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home - <?php bloginfo('name'); ?>&nbsp;-&nbsp;<?php bloginfo('description'); ?></title>
-		<meta name="description" content="meta-description here">
+		<title>
+			<?php get_template_part('parts/meta', 'title'); ?>
+		</title>
+		<meta name="description" content="<?php get_template_part('parts/meta', 'description'); ?>">
 
 		<!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
 		<!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
@@ -84,13 +86,21 @@
 								<div class="col-xxs-12 col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xlg-8 sticky-title">
 									<div class="sticky text-center">
 										<a href="<?php echo home_url(); ?>" class="title">
-											<h3 class="bloginfo"><?php bloginfo('name'); ?><small class="hidden-sm hidden-xs hidden-xxs">&nbsp;<?php bloginfo('description'); ?></h3>
+											<h3 class="bloginfo">
+
+												<?php get_template_part('parts/logo', 'header'); ?>
+
+											</h3>
 											<!-- <h2 class="visible-xs visible-xxs">OUR Tube</h2> -->
 										</a>
 									</div>
 									<div class="top text-center">
 										<a href="<?php echo home_url(); ?>" class="title">
-											<h2 class="bloginfo"><?php bloginfo('name'); ?><small class="hidden-sm hidden-xs hidden-xxs">&nbsp;<?php bloginfo('description'); ?></small></h2>
+											<h2 class="bloginfo">
+
+												<?php get_template_part('parts/logo', 'header'); ?>
+
+											</h2>
 											<!-- <h2 class="visible-xs visible-xxs">OUR Tube</h2> -->
 										</a>
 									</div>

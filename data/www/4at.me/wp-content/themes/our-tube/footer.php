@@ -51,6 +51,7 @@
 				</div>
 				<div class="footer-links">
 					<ul class="nav nav-pills nav-justified">
+						<li><a><?php bloginfo('name'); ?>&nbsp;-&nbsp;<?php bloginfo('description'); ?></a></li>
 						<li class="active"><a href="#">Terms of Service</a></li>
 						<li><a href="#">Privacy Policy</a></li>
 						<li><a href="#">DMCA</a></li>
