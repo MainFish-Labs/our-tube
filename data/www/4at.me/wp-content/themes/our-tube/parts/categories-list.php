@@ -1,8 +1,8 @@
 <?php
-	$args = array(
+	$args20 = array(
 	'show_option_all'    => '',
 	'show_option_none'   => __('No categories'),
-	'orderby'            => 'name',
+	'orderby'            => 'ID',
 	'order'              => 'ASC',
 	'show_last_update'   => 0,
 	'style'              => 'list',
@@ -20,7 +20,41 @@
 	'hierarchical'       => true,
 	// 'title_li'           => __( 'Categories' ),
 	'title_li'           => '',
-	'number'             => NULL,
+	'number'             => 20,
+	'echo'               => 1,
+	'depth'              => 0,
+	'current_category'   => 0,
+	'pad_counts'         => 0,
+	'taxonomy'           => 'category',
+	'walker'             => 'Walker_Category',
+	'hide_title_if_empty' => false,
+	'separator'          => '<br />',
+	);
+?>
+
+<?php
+	$args40 = array(
+	'show_option_all'    => '',
+	'show_option_none'   => __('No categories'),
+	'orderby'            => 'ID',
+	'order'              => 'DESC',
+	'show_last_update'   => 0,
+	'style'              => 'list',
+	'show_count'         => 0,
+	// 'hide_empty'         => 1,
+	'hide_empty'         => 0,
+	'use_desc_for_title' => 1,
+	'child_of'           => 0,
+	'feed'               => '',
+	'feed_type'          => '',
+	'feed_image'         => '',
+	'exclude'            => '',
+	'exclude_tree'       => '',
+	'include'            => '',
+	'hierarchical'       => false,
+	// 'title_li'           => __( 'Categories' ),
+	'title_li'           => '',
+	'number'             => 20,
 	'echo'               => 1,
 	'depth'              => 0,
 	'current_category'   => 0,
@@ -34,7 +68,12 @@
 
 <div class="cat-sub">
 	<ul class="nav-stacked">
-		<?php wp_list_categories( $args ); ?>
+		<?php wp_list_categories( $args20 ); ?>
+	</ul>
+</div>
+<div class="cat-sub">
+	<ul class="nav-stacked">
+		<?php wp_list_categories( $args40 ); ?>
 	</ul>
 </div>
 
