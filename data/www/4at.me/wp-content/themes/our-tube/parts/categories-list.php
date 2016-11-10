@@ -54,7 +54,7 @@
 	'hierarchical'       => false,
 	// 'title_li'           => __( 'Categories' ),
 	'title_li'           => '',
-	'number'             => 20,
+	'number'             => 19,
 	'echo'               => 1,
 	'depth'              => 0,
 	'current_category'   => 0,
